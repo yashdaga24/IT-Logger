@@ -1,0 +1,33 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Kaam done",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2021-06-10T01:05:15.608Z"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Yahs",
+      "lastName": "Daga",
+      "id": 4
+    }
+  ]
+}
