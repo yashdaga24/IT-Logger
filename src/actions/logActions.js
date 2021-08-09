@@ -17,7 +17,7 @@ export const getLogs = () => async (dispatch) => {
 
     const res = await fetch('/logs');
     const data = await res.json();
-
+    await data.sort((a, b) => (a.attention ? -1 : 1));
     dispatch({
       type: GET_LOGS,
       payload: data,
